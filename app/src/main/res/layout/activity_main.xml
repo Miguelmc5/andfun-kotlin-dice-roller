@@ -32,9 +32,11 @@
 
     <Button
         android:id="@+id/roll_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll" />
+        android:text="@string/tirar"
+        app:icon="@drawable/baseline_local_fire_department_black_18dp" />
 
 </LinearLayout>
